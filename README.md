@@ -1,12 +1,2 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Layihə üçün istifadə olunan kitabxana və alətlər: Redux, webRTC, BroadcastChannel, Custom Hooks, qismən Bootstrap və Module CSS-lər.
+İstifadə məqsədləri: 1. Redux : İstifadəçinin Uİ idarəsində və statusunda məlumatları ötürmək üçün. 2. WebRTC: Siqnal istifadə etmədən local olaraq stream-lərdən istifadə etmək üçün. (Layihədə localStreamRef və remoteStreamRef olaraq qeyd olunub) 3. BroadcastChannel: Layihəni daha real göstərmək üçün açılan pəncərələrdə Mock İd yaradaraq, istifadəçini görmək, filter etmək üçün istifadə olunub. Açılan pəncərə ardıcıllığına əsasən İd yaranır və List elementlərinin sonuna əlavə olunur. Sonuncu Pəncərə sonuncu istifadəçidir. 4. CustomHooks: Funksiya sayının çoxluğu və səhifə sayının azlığından dolayı, Custom Hook daxilində kodlaşdırmaya daha çox üstünlük verdim. Funksiyaların çoxu useRef və useState üzərindən getdiyi üçün "formatter" xarici digər funksiyalar CustomHook-da saxlanılıb. 5. Bəzi səhifələrdə Bootstrap bəzilərin də isə Module CSS-lərdən istifadə etdim. Tailwind CSS-i konfiqurasıyadan dolayı istifadə etmədim.
